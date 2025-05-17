@@ -1,0 +1,8 @@
+---
+- name: Install my websocket
+  become: yes
+  hosts: all
+
+  roles:
+    - site-20h
+    - pm2
