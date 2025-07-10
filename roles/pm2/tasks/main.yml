@@ -7,10 +7,10 @@
 
 
 #---------------------------------------------------------2
-    - name: delete websocket with pm2
-      ansible.builtin.shell: pm2 delete websocket
-      args:
-        chdir: /var/www/ws/
+    # - name: delete websocket with pm2
+    #   ansible.builtin.shell: pm2 delete websocket
+    #   args:
+    #     chdir: /var/www/ws/
 
 
 #---------------------------------------------------------2
